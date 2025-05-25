@@ -9,8 +9,8 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build": "npm install && mkdir -p public/css public/js public/images && cp -r views public/ && cp public/css/style.css public/css/ && cp public/js/main.js public/js/",
-    "prebuild": "rm -rf public/* || true",
+    "build": "npm install && mkdir -p public/css public/js public/images && cp -r views public/views",
+    "prebuild": "rm -rf public/views || true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
